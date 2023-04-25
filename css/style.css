@@ -200,7 +200,7 @@ nav > ul > li > a:hover::after{
 /* ************************************************************************************** */
 /* category */
 .category{
-  padding: 40px 0;
+  padding: 40px 0 10px 0;
 }
 .cats-parent{
   display: grid;
@@ -249,7 +249,7 @@ nav > ul > li > a:hover::after{
 /* ************************************************************************************** */
 /* Discount */
 .discount{
-  padding: 50px 0;
+  padding: 30px 0 50px 0 ;
 }
 .main-sec{
   padding: 20px;
@@ -409,6 +409,10 @@ nav > ul > li > a:hover::after{
 .product-img-holder{
   position: relative;
   z-index: 2;
+}
+.product-img-holder img {
+  width: 100%;
+  max-width: 100%;
 }
 .product-overlay{
   position: absolute;
